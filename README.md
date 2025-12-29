@@ -1,12 +1,13 @@
 # CSV Automation Script
 
-This script automates repetitive CSV cleanup tasks:
-- Removes empty and duplicate rows
+A small Python script that automates repetitive CSV cleanup tasks.
+
+## Features
+- Removes empty rows
+- Removes duplicates by (id, date)
 - Normalizes date formats
-- Converts numeric fields
+- Converts numeric fields (amount)
 
 ## Usage
+```bash
 python main.py
-
-## Use case
-Automating manual CSV data processing for operations teams.
